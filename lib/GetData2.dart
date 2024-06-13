@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mp-klinikApp/api_GetData2.dart'; // import file api_GetData2.dart
+import 'package:klinik_app/api_GetData2.dart'; // import file api_GetData2.dart
 import 'model/model_GetData2.dart'; // import file model_GetData2.dart
 
 class DataListPage extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:mp-KlinikApp/model/model_GetData2.dart';
+import 'package:klinik_app/model/model_GetData2.dart';
 import 'package:http/http.dart' as http;
 
 class ServisAPI {

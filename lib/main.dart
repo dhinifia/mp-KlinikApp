@@ -1,20 +1,28 @@
-import 'package:flutter/material.dart'; // Mengimpor paket flutter/material.dart untuk menggunakan komponen UI dari Flutter
-import 'ui/beranda.dart'; // Mengimpor file beranda.dart
+import 'package:flutter/material.dart';
+//import 'column_widget.dart';
+//import 'row_widget.dart';
+//import 'baris_kolom.dart';
+//import '/ui/beranda.dart';
+import 'ui/login_view.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key});
+  const MyApp({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner:
-          false, // Menyembunyikan banner debug pada aplikasi
-      title: 'Klinik', // Menetapkan judul aplikasi
-      home: Beranda(), // Mengatur Beranda sebagai halaman utama aplikasi
-    );
+    return MaterialApp(
+        title: 'Klinik',
+        debugShowCheckedModeBanner: false,
+        //home: ColumnWidget(),
+        //home: RowWidget(),
+        //home: BarisKolom(),
+        //home: Beranda(),
+        //home: HomePage(),
+        home: LoginView());
   }
 }
